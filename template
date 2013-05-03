@@ -1,0 +1,6 @@
+# Changing these two lines is sufficient for most users
+GIT_AUTHOR_NAME='Joe Bloggs'
+GIT_AUTHOR_EMAIL='nobody@example.com'
+
+export GIT_AUTHOR_NAME
+export GIT_AUTHOR_EMAIL
