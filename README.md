@@ -17,15 +17,17 @@ identified in the git log.
 
 ## Installation
 
-After cloning the repository, create a .bash_profile text file in the
+After cloning the repository, create a `.bash_profile` text file in the
 Git Bash home directory if necessary and add the following lines:
 
 	GITPROFILE_DIR=/path/to/git-profiles
-	. $GITPROFILE_DIR/.functions
+	. $GITPROFILE_DIR/functions.sh
 
 Launch a new Git Bash shell for access to Git profiles.
 
 ## Creating a new profile
+
+Profiles are stored in the `profiles` subfolder.
 
 The profile _template_ can be used as a template for new profiles.
 Make a copy of the profile and rename it to the profile name you
