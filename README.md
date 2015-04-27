@@ -31,20 +31,16 @@ Profiles are stored in the `profiles` subfolder.
 
 The profile _template_ can be used as a template for new profiles.
 Make a copy of the profile and rename it to the profile name you
-desire.
-
-The profile file should look like this:
+desire then change the 'Joe Bloggs' and 'nobody@example.com' in the
+copied profile to the profile user's name and email address respectively.
+For example:
 
 	# Changing these two lines is sufficient for most users
-	GIT_AUTHOR_NAME='Joe Bloggs'
-	GIT_AUTHOR_EMAIL='nobody@example.com'
+	GIT_AUTHOR_NAME='Big Cheese'
+	GIT_AUTHOR_EMAIL='root@example.com'
 
 	export GIT_AUTHOR_NAME
 	export GIT_AUTHOR_EMAIL
-
-Change the 'Joe Bloggs' and 'nobody@example.com' in the copied profile
-to the profile user's name and email address respectively.
-
 
 ## Using a profile
 
